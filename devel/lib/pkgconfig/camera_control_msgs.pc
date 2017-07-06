@@ -1,0 +1,8 @@
+prefix=/home/llr_ic/catkin_ws/devel
+
+Name: camera_control_msgs
+Description: Description of camera_control_msgs
+Version: 0.0.14
+Cflags: -I/home/llr_ic/catkin_ws/devel/include
+Libs: -L/home/llr_ic/catkin_ws/devel/lib 
+Requires: actionlib_msgs message_runtime sensor_msgs

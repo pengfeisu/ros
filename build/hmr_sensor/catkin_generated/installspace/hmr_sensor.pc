@@ -1,0 +1,8 @@
+prefix=/home/llr_ic/catkin_ws/install
+
+Name: hmr_sensor
+Description: Description of hmr_sensor
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/llr_ic/catkin_ws/install/lib 
+Requires: 
