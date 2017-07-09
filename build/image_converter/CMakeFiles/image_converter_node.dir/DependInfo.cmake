@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/llr_ic/catkin_ws/src/image_converter/src/image_converter_node.cpp" "/home/llr_ic/catkin_ws/build/image_converter/CMakeFiles/image_converter_node.dir/src/image_converter_node.cpp.o"
+  "/home/llr_ic/catkin_ws/src/image_converter/src/image_handle.cpp" "/home/llr_ic/catkin_ws/build/image_converter/CMakeFiles/image_converter_node.dir/src/image_handle.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,9 +18,11 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/llr_ic/catkin_ws/src/image_converter/include"
   "/opt/ros/indigo/include"
   "/usr/local/include/opencv"
   "/usr/local/include"
+  "/home/llr_ic/catkin_ws/src/image_converter/include/image_converter"
   )
 
 # Targets to which this target links.

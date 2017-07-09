@@ -117,10 +117,9 @@ catkin_package(
 
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
-include_directories(
-# include
-  ${catkin_INCLUDE_DIRS}
-)
+include_directories(include ${catkin_INCLUDE_DIRS} include/image_converter)  ####包含进头文件所在位置
+
+#include_directories(include ./include/image_converter)  ##或者这种包含方式
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
@@ -135,7 +134,7 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-add_executable(image_converter_node src/image_converter_node.cpp)
+add_executable(image_converter_node src/image_converter_node.cpp src/image_handle.cpp)     ###增加进cpp
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the

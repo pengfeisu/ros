@@ -81,14 +81,40 @@ image_converter/CMakeFiles/image_converter_node.dir/src/image_converter_node.cpp
 image_converter/CMakeFiles/image_converter_node.dir/src/image_converter_node.cpp.o.provides.build: image_converter/CMakeFiles/image_converter_node.dir/src/image_converter_node.cpp.o
 
 
+image_converter/CMakeFiles/image_converter_node.dir/src/image_handle.cpp.o: image_converter/CMakeFiles/image_converter_node.dir/flags.make
+image_converter/CMakeFiles/image_converter_node.dir/src/image_handle.cpp.o: /home/llr_ic/catkin_ws/src/image_converter/src/image_handle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llr_ic/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object image_converter/CMakeFiles/image_converter_node.dir/src/image_handle.cpp.o"
+	cd /home/llr_ic/catkin_ws/build/image_converter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_converter_node.dir/src/image_handle.cpp.o -c /home/llr_ic/catkin_ws/src/image_converter/src/image_handle.cpp
+
+image_converter/CMakeFiles/image_converter_node.dir/src/image_handle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image_converter_node.dir/src/image_handle.cpp.i"
+	cd /home/llr_ic/catkin_ws/build/image_converter && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llr_ic/catkin_ws/src/image_converter/src/image_handle.cpp > CMakeFiles/image_converter_node.dir/src/image_handle.cpp.i
+
+image_converter/CMakeFiles/image_converter_node.dir/src/image_handle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image_converter_node.dir/src/image_handle.cpp.s"
+	cd /home/llr_ic/catkin_ws/build/image_converter && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llr_ic/catkin_ws/src/image_converter/src/image_handle.cpp -o CMakeFiles/image_converter_node.dir/src/image_handle.cpp.s
+
+image_converter/CMakeFiles/image_converter_node.dir/src/image_handle.cpp.o.requires:
+
+.PHONY : image_converter/CMakeFiles/image_converter_node.dir/src/image_handle.cpp.o.requires
+
+image_converter/CMakeFiles/image_converter_node.dir/src/image_handle.cpp.o.provides: image_converter/CMakeFiles/image_converter_node.dir/src/image_handle.cpp.o.requires
+	$(MAKE) -f image_converter/CMakeFiles/image_converter_node.dir/build.make image_converter/CMakeFiles/image_converter_node.dir/src/image_handle.cpp.o.provides.build
+.PHONY : image_converter/CMakeFiles/image_converter_node.dir/src/image_handle.cpp.o.provides
+
+image_converter/CMakeFiles/image_converter_node.dir/src/image_handle.cpp.o.provides.build: image_converter/CMakeFiles/image_converter_node.dir/src/image_handle.cpp.o
+
+
 # Object files for target image_converter_node
 image_converter_node_OBJECTS = \
-"CMakeFiles/image_converter_node.dir/src/image_converter_node.cpp.o"
+"CMakeFiles/image_converter_node.dir/src/image_converter_node.cpp.o" \
+"CMakeFiles/image_converter_node.dir/src/image_handle.cpp.o"
 
 # External object files for target image_converter_node
 image_converter_node_EXTERNAL_OBJECTS =
 
 /home/llr_ic/catkin_ws/devel/lib/image_converter/image_converter_node: image_converter/CMakeFiles/image_converter_node.dir/src/image_converter_node.cpp.o
+/home/llr_ic/catkin_ws/devel/lib/image_converter/image_converter_node: image_converter/CMakeFiles/image_converter_node.dir/src/image_handle.cpp.o
 /home/llr_ic/catkin_ws/devel/lib/image_converter/image_converter_node: image_converter/CMakeFiles/image_converter_node.dir/build.make
 /home/llr_ic/catkin_ws/devel/lib/image_converter/image_converter_node: /opt/ros/indigo/lib/libcv_bridge.so
 /home/llr_ic/catkin_ws/devel/lib/image_converter/image_converter_node: /usr/local/lib/libopencv_videostab.so.2.4.13
@@ -136,7 +162,7 @@ image_converter_node_EXTERNAL_OBJECTS =
 /home/llr_ic/catkin_ws/devel/lib/image_converter/image_converter_node: /usr/lib/x86_64-linux-gnu/libpthread.so
 /home/llr_ic/catkin_ws/devel/lib/image_converter/image_converter_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
 /home/llr_ic/catkin_ws/devel/lib/image_converter/image_converter_node: image_converter/CMakeFiles/image_converter_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/llr_ic/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/llr_ic/catkin_ws/devel/lib/image_converter/image_converter_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/llr_ic/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/llr_ic/catkin_ws/devel/lib/image_converter/image_converter_node"
 	cd /home/llr_ic/catkin_ws/build/image_converter && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/image_converter_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -145,6 +171,7 @@ image_converter/CMakeFiles/image_converter_node.dir/build: /home/llr_ic/catkin_w
 .PHONY : image_converter/CMakeFiles/image_converter_node.dir/build
 
 image_converter/CMakeFiles/image_converter_node.dir/requires: image_converter/CMakeFiles/image_converter_node.dir/src/image_converter_node.cpp.o.requires
+image_converter/CMakeFiles/image_converter_node.dir/requires: image_converter/CMakeFiles/image_converter_node.dir/src/image_handle.cpp.o.requires
 
 .PHONY : image_converter/CMakeFiles/image_converter_node.dir/requires
 

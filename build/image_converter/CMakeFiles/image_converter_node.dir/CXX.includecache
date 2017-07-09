@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/home/llr_ic/catkin_ws/src/image_converter/include/image_converter/image_handle.h
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+opencv2/core.hpp
+-
+vector
+-
+
 /home/llr_ic/catkin_ws/src/image_converter/src/image_converter_node.cpp
 ros/ros.h
 -
@@ -15,14 +25,12 @@ cv_bridge/cv_bridge.h
 -
 geometry_msgs/Twist.h
 -
-opencv2/imgproc/imgproc.hpp
--
-opencv2/highgui/highgui.hpp
--
-vector
--
-image_converter/image_handle.h
--
+image_handle.h
+/home/llr_ic/catkin_ws/src/image_converter/src/image_handle.h
+
+/home/llr_ic/catkin_ws/src/image_converter/src/image_handle.cpp
+image_handle.h
+/home/llr_ic/catkin_ws/src/image_converter/src/image_handle.h
 
 /opt/ros/indigo/include/XmlRpcDecl.h
 ros/macros.h
@@ -9551,6 +9559,10 @@ boost/type_traits/function_traits.hpp
 /usr/local/include/boost/weak_ptr.hpp
 boost/smart_ptr/weak_ptr.hpp
 -
+
+/usr/local/include/opencv2/core.hpp
+opencv2/core/core.hpp
+/usr/local/include/opencv2/opencv2/core/core.hpp
 
 /usr/local/include/opencv2/core/core.hpp
 opencv2/core/types_c.h

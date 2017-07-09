@@ -3,7 +3,10 @@
 
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/highgui/highgui.hpp>
+#include <opencv2/core.hpp>
 #include <vector>
+
 using namespace cv;
-void whiteBalance(cv::Mat &src,cv::Mat &dst);
+extern void whiteBalance(cv::Mat &src,cv::Mat &dst);
+
 #endif

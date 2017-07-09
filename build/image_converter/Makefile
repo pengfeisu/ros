@@ -209,6 +209,33 @@ src/image_converter_node.cpp.s:
 	cd /home/llr_ic/catkin_ws/build && $(MAKE) -f image_converter/CMakeFiles/image_converter_node.dir/build.make image_converter/CMakeFiles/image_converter_node.dir/src/image_converter_node.cpp.s
 .PHONY : src/image_converter_node.cpp.s
 
+src/image_handle.o: src/image_handle.cpp.o
+
+.PHONY : src/image_handle.o
+
+# target to build an object file
+src/image_handle.cpp.o:
+	cd /home/llr_ic/catkin_ws/build && $(MAKE) -f image_converter/CMakeFiles/image_converter_node.dir/build.make image_converter/CMakeFiles/image_converter_node.dir/src/image_handle.cpp.o
+.PHONY : src/image_handle.cpp.o
+
+src/image_handle.i: src/image_handle.cpp.i
+
+.PHONY : src/image_handle.i
+
+# target to preprocess a source file
+src/image_handle.cpp.i:
+	cd /home/llr_ic/catkin_ws/build && $(MAKE) -f image_converter/CMakeFiles/image_converter_node.dir/build.make image_converter/CMakeFiles/image_converter_node.dir/src/image_handle.cpp.i
+.PHONY : src/image_handle.cpp.i
+
+src/image_handle.s: src/image_handle.cpp.s
+
+.PHONY : src/image_handle.s
+
+# target to generate assembly for a file
+src/image_handle.cpp.s:
+	cd /home/llr_ic/catkin_ws/build && $(MAKE) -f image_converter/CMakeFiles/image_converter_node.dir/build.make image_converter/CMakeFiles/image_converter_node.dir/src/image_handle.cpp.s
+.PHONY : src/image_handle.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -226,6 +253,9 @@ help:
 	@echo "... src/image_converter_node.o"
 	@echo "... src/image_converter_node.i"
 	@echo "... src/image_converter_node.s"
+	@echo "... src/image_handle.o"
+	@echo "... src/image_handle.i"
+	@echo "... src/image_handle.s"
 .PHONY : help
 
 

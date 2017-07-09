@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"image_converter\"
 
-CXX_INCLUDES = -I/opt/ros/indigo/include -I/usr/local/include/opencv -I/usr/local/include 
+CXX_INCLUDES = -I/home/llr_ic/catkin_ws/src/image_converter/include -I/opt/ros/indigo/include -I/usr/local/include/opencv -I/usr/local/include -I/home/llr_ic/catkin_ws/src/image_converter/include/image_converter 
 
